@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 32px;
+    background-color: rgb(66, 66, 66);
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 8px 0px black;
+    margin-bottom: 32px;
+}
+.text {
+    display: flex;
+    align-self: center;
+    color: white;
+    padding-top: 8px;
+
+}
+.inputField {
+    margin-top: 8px;
+    line-height: 32px;
+    font-size: large;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    height: 32px;
+    width: 256px;
+    background-color: rgb(84, 133, 230);
+    box-shadow: 4px 4px 8px 0px black;
+}
+
+.inputFieldText {
+    resize: none;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: large;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    height: 256px;
+    width: 256px;
+    background-color: rgb(84, 133, 230);
+    box-shadow: 4px 4px 8px 0px black;
+}
+button {
+    background-color: rgb(84, 133, 230);
+    box-shadow: 4px 4px 8px 0px black;
+    height: 32px;
+    width: 128px;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    color: white;
+    margin-top: 16px;
+    border: none;
+    line-height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: tomato;
+}
+.inputFieldOut {
+    margin-bottom: 64px;
+    margin-top: 32px;
+    padding: 32px;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    font-weight: 600;
+    font-size: large;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    box-shadow: 4px 4px 8px 0px black;
+    border: 1px solid black;
+    overflow-wrap: break-word;
+}
